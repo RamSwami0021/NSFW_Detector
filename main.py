@@ -1,6 +1,5 @@
 from nsfw_detector import predict
 import openpyxl
-import urllib.request
 
 workbook = openpyxl.Workbook()
 worksheet = workbook.active
